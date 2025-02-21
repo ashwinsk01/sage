@@ -16,13 +16,10 @@
         <div class="container">
             <div class="header">
                 <div class="header-content">
-                    <h1>Oxford Journey</h1>
+                    <h1>An Ode to Sage Green</h1>
                     <p class="subtitle">
-                        A carefully crafted day of discovery, where each moment
-                        unfolds like pages of a story we'll write together.
-                        Through historic streets and hidden corners, we'll
-                        create memories that will linger long after the day
-                        ends.
+                        This one is a lil different, but I hope you like it.
+                        Gotta level up, right?
                     </p>
 
                     <div class="main-countdown">
@@ -34,7 +31,10 @@
                         </div>
                     </div>
 
-                    <div class="playlist-container">
+                    <div
+                        class="playlist-container"
+                        style="margin-left: 0; text-align: left"
+                    >
                         <h3 class="playlist-title">For the vibes</h3>
                         <div class="spotify-embed">
                             <iframe
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="credits">
-                    Built for you
+                    Built for Anoushka
                     <div class="flower-animation">
                         <div class="flower"></div>
                         <div
@@ -81,18 +81,15 @@
                         <div class="icon-circle">
                             <i class="fas fa-hiking"></i>
                         </div>
-                        <h2>Walking Around Oxford</h2>
+                        <h2>Small walks, small talks, Big coffees</h2>
                         <div class="time">
                             <i class="far fa-clock"></i>
                             14:00
                         </div>
                         <div class="location-content">
-                            Exploring the historic streets of Oxford together.
-                            Taking in the stunning architecture of the colleges,
-                            walking through the charming cobblestone streets,
-                            and perhaps finding a cozy spot to watch the world
-                            go by. Maybe we'll discover some hidden courtyards
-                            or stumble upon a secret garden.
+                            Your pick for sure, I guess that I'm taking L's in
+                            that department anyways, so I'mma just go with it.
+                            All I can promise is loads of trash humor :).
                         </div>
                     </div>
                 </div>
@@ -106,7 +103,7 @@
                             Someplace to Someplace
                         </h2>
                         <h2 class="real-title" style="display: none">
-                            Journey to Woodstock
+                            We're going to Oxfordshire!
                         </h2>
                         <div class="time">
                             <i class="far fa-clock"></i>
@@ -117,19 +114,17 @@
                             Loading countdown...
                         </div>
                         <div class="location-content placeholder-content">
-                            A journey from one place to another, through paths
-                            yet unknown. The destination remains a mystery, but
-                            the journey promises to be interesting.
+                            A journey from one place to another, no clues found
+                            :/
                         </div>
                         <div
                             class="location-content real-content"
                             style="display: none"
                         >
-                            A scenic journey through the Oxfordshire
-                            countryside, watching the landscape change as we
-                            make our way to the historic town of Woodstock. The
-                            anticipation builds as we travel through picturesque
-                            villages and rolling hills.
+                            Wanted to switch it up, we always in the city, so
+                            lets get out of it for a bit. Everything is sorted,
+                            so dw, today is about you and enjoying yourself to
+                            the fullest.
                         </div>
                         <div class="locked-message">
                             <i class="fas fa-lock"></i>
@@ -149,26 +144,21 @@
                         </h2>
                         <div class="time">
                             <i class="far fa-clock"></i>
-                            15:00
+                            17:30
                         </div>
                         <div class="countdown" id="countdown3">
                             <i class="fas fa-hourglass-half"></i>
                             Loading countdown...
                         </div>
                         <div class="location-content placeholder-content">
-                            A place where sustenance meets mystery. What will be
-                            consumed remains to be seen, but the experience
-                            promises to be memorable.
+                            We will.. well consume things?
                         </div>
                         <div
                             class="location-content real-content"
                             style="display: none"
                         >
-                            Dinner at this historic gastropub, known for its
-                            charming atmosphere and exceptional cuisine. A
-                            perfect setting for good food and even better
-                            conversation, surrounded by centuries of history and
-                            warm, inviting ambiance.
+                            Gonna take a lil ride to the countryside, gonna have
+                            some mad food and chill like there is no tomorow.
                         </div>
                         <div class="locked-message">
                             <i class="fas fa-lock"></i>
@@ -184,30 +174,26 @@
                         </div>
                         <h2 class="placeholder-title">Back from Someplace</h2>
                         <h2 class="real-title" style="display: none">
-                            Return Journey
+                            Going back to London
                         </h2>
                         <div class="time">
                             <i class="far fa-clock"></i>
-                            15:00
+                            20:00
                         </div>
                         <div class="countdown" id="countdown4">
                             <i class="fas fa-hourglass-half"></i>
                             Loading countdown...
                         </div>
                         <div class="location-content placeholder-content">
-                            The return leg of our journey, from wherever we may
-                            be. The path back holds its own mysteries and
-                            moments to discover.
+                            We go back to the usual place.
                         </div>
                         <div
                             class="location-content real-content"
                             style="display: none"
                         >
-                            Making our way back through the evening light,
-                            perhaps sharing thoughts about the day's adventures
-                            and making plans for future explorations. The
-                            perfect time to reflect on the memories we've
-                            created.
+                            Making our way back, It's been quite a day and I've
+                            (hopefully) surprised you at least a bit. You were
+                            worth the hassle. I promise.
                         </div>
                         <div class="locked-message">
                             <i class="fas fa-lock"></i>
@@ -227,10 +213,8 @@
                             21:00
                         </div>
                         <div class="location-content">
-                            Returning home with new memories and stories to
-                            tell. A perfect end to a day of exploration and
-                            connection. Time to rest and dream about future
-                            adventures.
+                            Back to the town, back to the usual. A trip
+                            hopefully well done.
                         </div>
                     </div>
                 </div>
@@ -238,6 +222,7 @@
         </div>
 
         <script>
+            // Main Countdown Timer
             // Main Countdown Timer
             function updateMainCountdown() {
                 const mainTarget = moment("2025-02-22 14:00:00");
@@ -272,40 +257,82 @@
 
             // Location Countdowns
             function updateCountdowns() {
-                const targetDate = moment("2025-02-22 15:00:00");
-                const locations = [2, 3, 4];
+                const targetDates = {
+                    2: moment("2025-02-21 00:02:30"),
+                    3: moment("2025-02-22 17:30:00"),
+                    4: moment("2025-02-22 20:00:00"),
+                };
 
+                const locations = [2, 3, 4];
                 locations.forEach((locationNum) => {
                     const countdown = document.getElementById(
                         `countdown${locationNum}`,
                     );
+                    const card = document.getElementById(
+                        `location${locationNum}`,
+                    );
+                    const placeholderTitle =
+                        card.querySelector(".placeholder-title");
+                    const realTitle = card.querySelector(".real-title");
+                    const placeholderContent = card.querySelector(
+                        ".placeholder-content",
+                    );
+                    const realContent = card.querySelector(".real-content");
+                    const lockedMessage = card.querySelector(".locked-message");
 
-                    function update() {
-                        const now = moment();
-                        const duration = moment.duration(targetDate.diff(now));
+                    function showUnlockedContent() {
+                        // Hide placeholder and locked content
+                        placeholderTitle.style.display = "none";
+                        placeholderContent.style.display = "none";
+                        lockedMessage.style.display = "none";
 
-                        if (duration.asMilliseconds() <= 0) {
-                            countdown.innerHTML = `<i class="fas fa-check"></i> Unlocked!`;
-                            return;
-                        }
+                        // Show real content with proper visibility and opacity
+                        realTitle.style.display = "block";
+                        realTitle.style.opacity = "1";
+                        realTitle.style.visibility = "visible";
 
-                        const days = Math.floor(duration.asDays());
-                        const hours = duration.hours();
-                        const minutes = duration.minutes();
-                        const seconds = duration.seconds();
+                        realContent.style.display = "block";
+                        realContent.style.opacity = "1";
+                        realContent.style.visibility = "visible";
 
-                        countdown.innerHTML = `
-                            <i class="fas fa-hourglass-half"></i>
-                            ${days}d ${hours}h ${minutes}m ${seconds}s
-                        `;
+                        countdown.innerHTML = `<i class="fas fa-check"></i> Unlocked!`;
                     }
 
-                    update();
-                    setInterval(update, 1000);
+                    // Check initial state
+                    const initialDuration = moment.duration(
+                        targetDates[locationNum].diff(moment()),
+                    );
+                    if (initialDuration.asMilliseconds() <= 0) {
+                        showUnlockedContent();
+                    } else {
+                        function update() {
+                            const now = moment();
+                            const duration = moment.duration(
+                                targetDates[locationNum].diff(now),
+                            );
+
+                            if (duration.asMilliseconds() <= 0) {
+                                showUnlockedContent();
+                                return;
+                            }
+
+                            const days = Math.floor(duration.asDays());
+                            const hours = duration.hours();
+                            const minutes = duration.minutes();
+                            const seconds = duration.seconds();
+                            countdown.innerHTML = `
+                                <i class="fas fa-hourglass-half"></i>
+                                ${days}d ${hours}h ${minutes}m ${seconds}s
+                            `;
+                        }
+
+                        update();
+                        setInterval(update, 1000);
+                    }
                 });
             }
 
-            // Initialize both countdowns
+            // Initialize both countdowns immediately
             updateMainCountdown();
             updateCountdowns();
 
